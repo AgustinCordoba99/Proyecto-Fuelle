@@ -1,0 +1,42 @@
+h1,h2{
+    display: flex;
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    color: black;
+    margin: 50px;
+    
+    background-image: url(R.jpg);
+    background-repeat:round;
+    padding: 30px;
+    border: solid 2px rgb(32, 25, 25);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center, justify;
+    line-height: 1.6;
+    margin: 100px 120px 10px 120px;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.titulo_imagen{
+    grid-area: titulo;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: solid 0.90px rgba(0, 0, 0, 0.651);
+    margin: auto;
+    
+ 
+ }
