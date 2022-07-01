@@ -1,9 +1,7 @@
-header{
-    grid-area: header;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-}
+
+
+
+
 main{
     grid-area: main;
  }
@@ -11,5 +9,5 @@ main{
     grid-area: footer;
       padding: auto;
       margin:auto;
-      @extend header;
+      
   } 
